@@ -22,6 +22,10 @@ nav{
     font-size: 45px;
 }
 /* shared style */
+.secondary-bg
+{
+    background-color:#FFF8F3;
+}
 .text-primary
 {
     color: #FD6E0A;
@@ -86,4 +90,37 @@ margin: 0 35px 0 200px;
     background-image:url('../images/developer.png'),url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left,bottom right;
+}
+.section-title
+{
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818;
+}
+.section-description
+{
+    font-size: 18px;
+    color:#757575;
+}
+/* main styles */
+main{
+    max-width:1140px;
+    margin: 0 auto;
+}
+/* about style */
+.about
+{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items
+{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description
+{
+    font-weight: 600;
 }
